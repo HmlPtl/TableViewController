@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA418EC019A9CD8B00BA364F /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = AA418EBF19A9CD8B00BA364F /* img.png */; };
 		AA7726B919A63ADB005A745C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7726B819A63ADB005A745C /* AppDelegate.swift */; };
 		AA7726BB19A63ADB005A745C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7726BA19A63ADB005A745C /* ViewController.swift */; };
 		AA7726BE19A63ADB005A745C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7726BC19A63ADB005A745C /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA418EBF19A9CD8B00BA364F /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 		AA7726B319A63ADB005A745C /* TableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7726B719A63ADB005A745C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7726B819A63ADB005A745C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				AA7726BA19A63ADB005A745C /* ViewController.swift */,
 				AA7726BC19A63ADB005A745C /* Main.storyboard */,
 				AA7726BF19A63ADB005A745C /* Images.xcassets */,
+				AA418EBF19A9CD8B00BA364F /* img.png */,
 				AA7726B619A63ADB005A745C /* Supporting Files */,
 			);
 			path = TableViewController;
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA418EC019A9CD8B00BA364F /* img.png in Resources */,
 				AA7726BE19A63ADB005A745C /* Main.storyboard in Resources */,
 				AA7726C019A63ADB005A745C /* Images.xcassets in Resources */,
 			);
@@ -399,6 +403,7 @@
 				AA7726D119A63ADC005A745C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA7726D219A63ADC005A745C /* Build configuration list for PBXNativeTarget "TableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				AA7726D419A63ADC005A745C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
